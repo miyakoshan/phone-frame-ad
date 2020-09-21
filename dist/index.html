@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone 11</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="iphone-main">
+      <img class="iphone-main_frame-background" src="icons/iphone11-edited.png">
+
+      <div class="iphone-screen_background">
+        <div id="demo">
+          <div id="mySwipe" class="iphone-swipe_action">
+            <div class="iphone-swipe_action_content">
+                <div class="iphone-screen_display">
+                  <div class="iphone-screen_display_title">Welcome</div>
+                  <div class="iphone-screen_display_content">
+                    <div class="iphone-screen_display_content-bottom">
+                      Spread kitty litter all over house rub face on owner slap the
+                      dog because cats rule pooping rainbow while flying in a toasted
+                      bread costume in space. Push your water glass on the floor cats
+                      making all the muffins for meowing chowing and wowing my cat
+                      stared at me he was sipping his tea, too, purr like an angel.
+                      Push your water glass on the floor i like fish run off table
+                      persian cat jump eat fish so pet right here,too, purr like an angel.
+                      Push your water glass on the floor i like fish run off table
+                      persian cat jump eat fish so pet right here,
+                    </div>
+                    <div class="iphone-screen_display_content-topButton">
+                      <a href="index.html"><img class="iphone-screen_display_content-buttonImg" src="icons/telegram.png" /></a>
+                      <a href="#"><img class="iphone-screen_display_content-buttonImg" src="icons/whatsapp.png" /></a>
+                      <a href="index3.html"><img class="iphone-screen_display_content-buttonImg" src="icons/ranking.png" /></a>
+                    </div>
+                  </div>
+                  <div class="iphone-screen_display_swipe-left">&lt;&lt; Swipe Left</div>
+            </div><!--pages end-->
+
+            <div class="iphone-screen_display">
+              <div class="iphone-screen_display_return"><a href="index.html"><img src="icons/return(2).png"></a></div>
+              <div class="iphone-screen_display_login-title">Login</div>
+
+            <div class="iphone-screen_content_login-form">
+              <label class="iphone-screen_content_login-label" for="phoneNo">Phone number</label>
+              <input class="iphone-screen_content_login-input" type="tel" id="phoneNo" name="phoneNo" placeholder="Click the label" required>
+              <input class="iphone-screen_content_login-input" type="submit" value="Login" >
+            </div>
+            <div class="iphone-screen_content_login-button">
+              <a href="index.html"><img class="iphone-screen_content_login-buttonImg" src="icons/telegram.png" /></a>
+              <a href="#"><img class="iphone-screen_content_login-buttonImg" src="icons/whatsapp.png" /></a>
+              <a href="index3.html"><img class="iphone-screen_content_login-buttonImg" src="icons/ranking.png" /></a>
+            </div>
+            <div class="iphone-screen_display_swipe-left"></div>
+          </div><!--pages end-->
+         
+        </div>
+              
+            
+          </div>
+        </div>
+      </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--<script src="//cdn.jsdelivr.net/gh/lyfeyaj/swipe/swipe.js"></script>-->
+    <script src="../dist/swipe.js"></script>
+    <script>
+
+      // pure JS
+      var element = document.getElementById('mySwipe'),
+          nextBtn = document.getElementById('next');
+
+
+      window.mySwipe = new Swipe(element, {
+        startSlide: 0,
+        auto: 0,
+        draggable: true,
+        autoRestart: false,
+        continuous: 0,
+        disableScroll: true,
+        stopPropagation: true,
+        speed:200,
+        callback: function(index, element,dir){ } ,
+        transitionEnd: function(index, element) {}
+      });
+
+
+      // using jQuery
+      // window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+
+    </script>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <!--<script>hljs.initHighlightingOnLoad();</script>-->
+    </main>
+  </body>
+</html>
